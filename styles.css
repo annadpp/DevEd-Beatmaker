@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Karla:wght@100;700&display=swap");
 
+@keyframes playTrack {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -172,7 +181,7 @@ select {
 }
 
 .snare-pad.active {
-  background-color: var(--purple);
+  background-color: var(--lime);
 }
 
 .hihat-pad.active {
