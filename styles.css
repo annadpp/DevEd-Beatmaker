@@ -72,6 +72,7 @@ h1 span {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  text-align: center;
   width: 200px;
   margin: 30px 70px 10px 0px;
   border-top: 1.5px solid var(--mid-grey);
@@ -86,6 +87,12 @@ h1 span {
   box-shadow: inset 8px 0px 0px 0px rgba(255, 255, 255, 0.7);
   font-size: 30px;
   font-weight: bold;
+}
+
+.tempo-slider {
+  -webkit-appearance: none;
+  background-color: var(--mid-grey);
+  cursor: pointer;
 }
 
 .sequencer {
@@ -123,7 +130,7 @@ h1 span {
 }
 
 select {
-  width: 150px;
+  width: 125px;
   border: none;
   padding: 7px;
   font-weight: bold;
@@ -138,6 +145,10 @@ select {
   border: 3px solid var(--dark-grey);
   background-color: var(--light-grey);
   box-shadow: inset 5px 0px 0px 0px rgba(255, 255, 255, 0.7);
+}
+
+.mute.active {
+  background-color: var(--mid-grey);
 }
 
 .kick,
